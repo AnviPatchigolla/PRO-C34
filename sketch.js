@@ -32,6 +32,8 @@ function draw(){
   text ("Note: Press UP_ARROW key to feed him milk!", 50, 50);
   
   drawSprites();
+
+  text("Food left: " + foodS, 100, 100);
 }
 
 function readStock(data){
